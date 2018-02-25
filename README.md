@@ -1,5 +1,6 @@
 # crud-basico-php
-#configurar a conexão com o banco em config/conecta.php
+# configurar a conexão com o banco em config/conecta.php
+# Crud Basico 
 
 
 Tabela criada para o exemplo
