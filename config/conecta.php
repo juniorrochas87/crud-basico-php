@@ -4,7 +4,7 @@ $conn = 'mysql:host=localhost:3307;dbname=curso_php';
 
 try {
 //     conecta ao banco,'login','senha'
-	$db = new PDO($conn,'root','suaSenha');
+	$db = new PDO($conn,'root','Solange@19972');
 
 	$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 

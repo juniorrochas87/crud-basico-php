@@ -18,6 +18,14 @@
         </div>
         <?php
     }
+    if ($_GET['excluido'] == true) {
+        ?>
+        <div class="alert alert-success alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <strong>Parabéns!</strong> Usuário foi excluido.
+        </div>
+        <?php
+    }
     ?> 
     <h1 class="h3 mb-3 font-weight-normal"><img class="mb-4" src="img/login.png" alt="Cadastro" width="120" height="100"> Usúarios Cadastrados </h1>
     <div class="table-responsive">
@@ -52,6 +60,7 @@
                     <td><?php echo $resultado->estado; ?></td>                             
                     <td>
                         <a href="alterar.php?id=<?= $resultado->id; ?>" class="btn btn-primary btn-xs"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span><i class="fa fa-pencil"></i></a>
+                        <a href="excluir.php?id=<?= $resultado->id; ?>" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span><i class="fa fa-pencil"></i></a>
                     </td>
                 </tr>
             <?php }; ?>
