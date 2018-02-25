@@ -1,0 +1,14 @@
+body {
+    background-color: tomato;
+}
+h1 {
+    color: green;
+    text-align: center;
+}
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+.roxo {
+    color: blueviolet;
+}

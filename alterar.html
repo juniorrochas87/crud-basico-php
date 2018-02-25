@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Página de Alteração</title>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    </head>
+
+    <body>
+
+        <ul class="container nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="cadastrar.html">Cadastro</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="alterar.html">Alterar</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="listar.html">Listar</a>
+            </li>
+            
+        </ul>
+
+        <div class="pt-5 container">
+            <form class="form">
+                <h1 class="h3 mb-3 font-weight-normal"><img class="mb-4" src="img/login.png" alt="Cadastro" width="120" height="100"> Alterar Usúario </h1>
+
+                <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label>Primeiro Nome</label>
+                        <input type="text" class="form-control" required>                    
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label>Sobrenome</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label>E-mail</label>
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                            </div>
+                            <input type="text" class="form-control" aria-describedby="inputGroupPrepend3" required>                        
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label>Logradouro</label>
+                        <input type="text" class="form-control" required>                    
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label>Cidade</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label>Estado</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                </div>
+
+                <button class="btn btn-lg btn-primary" type="submit">Alterar</button>
+            </form>
+        </div>
+        <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+        <script src="bootstrap/js/popper.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
